@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="hw1.css">
+    <title>hw1</title>
+</head>
+<body>
+    <div class="form-container">
+        <form action="#" method="post" class="form">
+            <h2>Шаг 1: Ваши данные</h2>
+
+            <div class="input-container">
+                <label for="name">Имя:</label>
+                <input type="text" id="name" name="name" placeholder="Например, Иван Иванов" required>
+            </div>
+
+            <div class="input-container">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Например, ivan@example.com" required>
+            </div>
+
+            <div class="input-container">
+                <label for="phone">Телефон:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Например, +380 555-1234" required>
+            </div>
+
+            <div class="payment-container">
+                <label for="payment">Способ оплаты:</label>
+                <select id="payment" name="payment" required>
+                    <option value="visa">Visa</option>
+                    <option value="mastercard">Mastercard</option>
+                    <option value="other">Другой</option>
+                </select>
+            </div>
+        </form>
+
+        <form action="#" method="post" class="form">
+            <h2>Шаг 2: Дополнительные данные</h2>
+
+            <div class="input-container">
+                <label for="address">Адрес:</label>
+                <input type="text" id="address" name="address" placeholder="Например, ул. Пушкина, д. 10" required>
+            </div>
+
+            <div class="input-container">
+                <label for="city">Город:</label>
+                <input type="text" id="city" name="city" placeholder="Например, Париж" required>
+            </div>
+
+            <div class="input-container">
+                <label for="postal">Почтовый индекс:</label>
+                <input type="text" id="postal" name="postal" placeholder="Например, 123456" required>
+            </div>
+
+
+        </form>
+
+        <form action="#" method="post" class="form">
+            <h2>Шаг 3: Еще данные</h2>
+
+            <div class="input-container">
+                <label for="company">Компания:</label>
+                <input type="text" id="company" name="company" placeholder="Например, ООО Рога и Копыта" required>
+            </div>
+
+            <div class="input-container">
+                <label for="position">Должность:</label>
+                <input type="text" id="position" name="position" placeholder="Например, Генеральный директор" required>
+            </div>
+
+            <div class="input-container">
+                <label for="website">Веб-сайт:</label>
+                <input type="url" id="website" name="website" placeholder="Например, http://www.example.com" required>
+            </div>
+
+            <div class="input-container">
+                <input type="submit" value="Отправить">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
